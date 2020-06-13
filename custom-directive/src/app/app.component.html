@@ -1,0 +1,15 @@
+<h1>SELECT RADIO BUTTON AND MOVE CURSOR ON TEXT</h1>
+<div>
+    <input type="radio" name="colors" (click)="color='blue'">
+    Blue
+
+    <input type="radio" name="colors" (click)="color='orange'">
+    Orange
+
+    <input type="radio" name="colors" (click)="color='green'">
+    Green
+
+</div>
+<br>
+<hr>
+<h2 [colorchange]="color">{{message}}</h2>

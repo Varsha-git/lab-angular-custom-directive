@@ -1,0 +1,23 @@
+h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin: 50px;
+    color: crimson;
+}
+h1
+{
+    margin-left: 50px;
+    color: brown;
+}
+div
+{
+    margin: 50px;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+input[type=radio] {
+    border: 0px;
+    height: 1em;
+}
